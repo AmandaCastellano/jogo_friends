@@ -1,0 +1,60 @@
+
+.tbody {
+	border-collapse: unset;
+	background-color: white;
+	TEXT-ALIGN: CENTER;
+
+}
+
+table {
+	border-collapse: unset;
+	align-content: center;
+	align-items: center;
+
+}
+
+table tbody tr:nth-child(2n + 1) {
+	background-color:white;
+
+}
+
+#personagens tr td:hover {background-color: rgba(85, 84, 75, 0.18);
+	TEXT-ALIGN: CENTER;
+
+}
+
+#vencedor{
+	font-size: 40px;
+	color: darkgreen;
+	text-transform: uppercase;
+	TEXT-ALIGN: CENTER;
+
+}
+
+#perdedor{
+	font-size: 40px;
+	color: #b71824;
+	text-transform: uppercase;
+	TEXT-ALIGN: CENTER;
+
+}
+
+#frase {
+	font-size: 30px;
+	color: #ffffff;
+	background-color: #2f3967;
+	TEXT-ALIGN: CENTER;
+
+}
+
+#personagens {
+	border: solid 5px;
+	border-color: #2f3967;
+
+}
+
+/* #pontos{
+	border: solid 3px;
+	border-color: #c5b7b7;
+	background: #bbbbbb;
+}

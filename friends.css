@@ -1,19 +1,24 @@
 
 .tbody {
-	border-collapse: unset;
+	border-collapse: unset !important;
 	background-color: white;
 	TEXT-ALIGN: CENTER;
 
 }
 
 table {
-	border-collapse: unset;
+	border-collapse: unset !important;
 	align-content: center;
 	align-items: center;
 
 }
 
 table tbody tr:nth-child(2n + 1) {
+	background-color:white !important;
+
+}
+
+#pontos tbody tr:nth-child(2n + 1) {
 	background-color:white;
 
 }
@@ -53,8 +58,10 @@ table tbody tr:nth-child(2n + 1) {
 
 }
 
-/* #pontos{
-	border: solid 3px;
-	border-color: #c5b7b7;
-	background: #bbbbbb;
+#pontos{
+	border-collapse: unset;
+	background: white !important;
+	align-items: left;
+	width: 60px !important;
+	line-height: inherit;
 }

@@ -27,7 +27,7 @@ var personagens = [
 		"perguntas": [
 			"Sempre sonhou em ter filhos?",
 			"Já amorou o melhor amigo de seu pai?"
-		]   
+		]
 	},
 
 	{
